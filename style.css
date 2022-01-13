@@ -1,0 +1,30 @@
+.navbar-nav,
+.mr-auto {
+  flex: 1;
+  margin: auto !important;
+  display: flex;
+  justify-content: space-around;
+}
+
+.department-heading:hover {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: salmon;
+}
+figure img {
+  margin: 0 auto;
+  display: block;
+  transition: all 1s;
+  max-width: 100%;
+}
+
+figure img:hover {
+  transform: scale(1.1);
+}
+
+ul li {
+  margin-top: 20px !important;
+}
+
+/* // carousel */
+
